@@ -21,6 +21,7 @@ import Celery from "../public/assets/skills/celery.png";
 import Jquery from "../public/assets/skills/jquery.webp";
 import Bootstrap from "../public/assets/skills/bootstrap.png";
 import MaterialUI from "../public/assets/skills/materialUI.png";
+import django_DRF from "../public/assets/skills/django_DRF.png";
 
 const Skills = () => {
   return (
@@ -45,7 +46,7 @@ const Skills = () => {
           <div className="h-[90px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 relative parent-div">
             <div className="absolute inset-0">
               <Image
-                src="/../public/assets/skills/django_DRF.png"
+                src={django_DRF}
                 layout="fill"
                 objectFit="object-fit"
                 alt="/"
