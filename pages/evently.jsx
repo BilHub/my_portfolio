@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import evently_home from "../public/assets/projects/evently/evently_home.png";
+import evently_signIn from "/public/assets/projects/evently/evently_signIn.png";
+import evently_dashboard from "/public/assets/projects/evently/evently_dashboard.png";
+import evently_accounts from "/public/assets/projects/evently/evently_accounts.png";
+import evently_profile from "/public/assets/projects/evently/evently_profile.png";
+import evently_activities from "/public/assets/projects/evently/evently_activities.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Slider from "../components/Slider";
@@ -12,23 +17,23 @@ const evently = () => {
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/evently/evently_signIn.png",
+      link: evently_signIn,
       title: "image 3",
     },
     {
-      link: "/../public/assets/projects/evently/evently_dashboard.png",
+      link: evently_dashboard,
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/evently/evently_accounts.png",
+      link: evently_accounts,
       title: "image 2",
     },
     {
-      link: "/../public/assets/projects/evently/evently_profile.png",
+      link: evently_profile,
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/evently/evently_activities.png",
+      link: evently_activities,
       title: "image 1",
     },
   ];

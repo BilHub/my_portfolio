@@ -1,5 +1,11 @@
 import Image from "next/image";
 import sms_homePage from "../public/assets/projects/sms/sms_homePage.png";
+import sms_dashboard from "../public/assets/projects/sms/sms_dashboard.png";
+import sms_users from "../public/assets/projects/sms/sms_users.png";
+import sms_courses from "../public/assets/projects/sms/sms_courses.png";
+import sms_schedule from "../public/assets/projects/sms/sms_schedule.png";
+import sms_attendance from "../public/assets/projects/sms/sms_attendance.png";
+import sms_finance from "../public/assets/projects/sms/sms_finance.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Slider from "../components/Slider";
@@ -7,31 +13,31 @@ import Slider from "../components/Slider";
 const allin1school = () => {
   const slides = [
     {
-      link: "/../public/assets/projects/sms/sms_homePage.png",
+      link: sms_homePage,
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/sms/sms_dashboard.png",
+      link: sms_dashboard,
       title: "image 3",
     },
     {
-      link: "/../public/assets/projects/sms/sms_users.png",
+      link: sms_users,
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/sms/sms_courses.png",
+      link: sms_courses,
       title: "image 2",
     },
     {
-      link: "/../public/assets/projects/sms/sms_schedule.png",
+      link: sms_schedule,
       title: "image 4",
     },
     {
-      link: "/../public/assets/projects/sms/sms_attendance.png",
+      link: sms_attendance,
       title: "image 1",
     },
     {
-      link: "/../public/assets/projects/sms/sms_finance.png",
+      link: sms_finance,
       title: "image 4",
     },
   ];
