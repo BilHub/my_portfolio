@@ -4,7 +4,7 @@ import rightIcon from "../public/assets/slider/right.png";
 import leftIcon from "../public/assets/slider/left.png";
 import { AiTwotoneLeftCircle } from "react-icons/ai";
 
-const slider = ({ slides }) => {
+const Slider = ({ slides }) => {
   const [currentIndex, setCurentIndex] = useState(0);
 
   const goToSlide = (slideIndex) => {
@@ -60,4 +60,4 @@ const slider = ({ slides }) => {
   );
 };
 
-export default slider;
+export default Slider;

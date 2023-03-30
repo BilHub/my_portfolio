@@ -3,7 +3,7 @@ import React from "react";
 import evently_home from "../public/assets/projects/evently/evently_home.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Slider from "../components/slider";
+import Slider from "../components/Slider";
 
 const evently = () => {
   const slides = [
@@ -69,12 +69,12 @@ const evently = () => {
           <p>
             On the front side, I utilized jQuery and Bootstrap, two popular
             front-end frameworks. I utilized Docker to containerize the app, and
-            Git to manage the app's development and version control.
+            Git to manage the app&apos;s development and version control.
           </p>
           <p>
-            On deployement, to optimize the app's performance and scalability, I
-            integrated Nginx as the web server and Gunicorn as the WSGI HTTP
-            server.
+            On deployement, to optimize the app&apos;s performance and
+            scalability, I integrated Nginx as the web server and Gunicorn as
+            the WSGI HTTP server.
           </p>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">

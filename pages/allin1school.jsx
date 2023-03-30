@@ -2,9 +2,7 @@ import Image from "next/image";
 import sms_homePage from "../public/assets/projects/sms/sms_homePage.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Slider from "../components/slider";
-import { AiTwotoneLeftCircle } from "react-icons/ai";
-import React, { useState } from "react";
+import Slider from "../components/Slider";
 
 const allin1school = () => {
   const slides = [
@@ -53,7 +51,6 @@ const allin1school = () => {
           <h2 className="py-2">Allin1School</h2>
         </div>
       </div>
-
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-5 py-8">
         <div className="col-span-4">
           <h2 className="mb-5">Overview</h2>
@@ -78,9 +75,9 @@ const allin1school = () => {
             testing framework that allows for easy and thorough testing of code.
             I also implemented Celery and Redis, two powerful tools that provide
             a distributed task queue and in-memory data structure store,
-            respectively. These tools helped me to improve the app's performance
-            and scalability, making it capable of handling large volumes of
-            traffic with ease.
+            respectively. These tools helped me to improve the app&apos;s
+            performance and scalability, making it capable of handling large
+            volumes of traffic with ease.
           </p>
           <p>
             The frontend of the app was developed using React JS and Tailwind
