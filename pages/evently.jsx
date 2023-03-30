@@ -8,7 +8,7 @@ import Slider from "../components/Slider";
 const evently = () => {
   const slides = [
     {
-      link: "/../public/assets/projects/evently/evently_home.png",
+      link: evently_home,
       title: "image 4",
     },
     {
