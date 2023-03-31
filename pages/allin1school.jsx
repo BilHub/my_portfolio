@@ -111,7 +111,7 @@ const allin1school = () => {
             <p className="text-center font-bold pb-2 text-xl underline">
               Technologies
             </p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
+            <div className="grid grid-cols-2 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center font-bold">
                 <RiRadioButtonFill className="pr-1" /> Django Rest Frmaework
               </p>
@@ -149,7 +149,7 @@ const allin1school = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[80vh] relative">
+      <div className="w-full h-[45vh] md:h-[80vh] relative">
         <Slider slides={slides} />
       </div>
       <Link href="/#projects">

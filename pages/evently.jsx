@@ -123,7 +123,7 @@ const evently = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[80vh] relative">
+      <div className="w-full h-[45vh] md:h-[80vh] relative">
         <Slider slides={slides} />
       </div>
       <Link href="/#projects">
