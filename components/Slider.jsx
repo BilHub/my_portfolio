@@ -23,7 +23,7 @@ const Slider = ({ slides }) => {
   };
   return (
     <div>
-      <div className="h-[30vh] md:h-[65vh] w-full md:w-[65vw] absolute left-[50%] -translate-x-1/2 mt-10">
+      <div className="h-[35vh] md:h-[65vh] w-full md:w-[65vw] absolute left-[50%] -translate-x-1/2 mt-10">
         <Image
           src={slides[currentIndex].link}
           alt="/"
@@ -33,17 +33,17 @@ const Slider = ({ slides }) => {
       </div>
       <div
         onClick={gotToNext}
-        className="h-[25px] w-[25px] md:h-[50px] md:w-[50px] absolute right-0 top-[17vh] md:top-[30vh] -translate-x-[3vw] md:-translate-x-[10vw]"
+        className="h-[25px] w-[25px] md:h-[50px] md:w-[50px] absolute right-0 top-[22vh] md:top-[30vh] -translate-x-[3vw] md:-translate-x-[10vw]"
       >
         <Image src={rightIcon} alt="/" layout="fill" object-fit="cover" />
       </div>
       <div
         onClick={goToPrevious}
-        className="h-[30px] w-[30px] md:h-[50px] md:w-[50px] absolute left-0 top-[17vh] md:top-[30vh] translate-x-[3vw] md:translate-x-[10vw]"
+        className="h-[30px] w-[30px] md:h-[50px] md:w-[50px] absolute left-0 top-[22vh] md:top-[30vh] translate-x-[3vw] md:translate-x-[10vw]"
       >
         <Image src={leftIcon} alt="/" layout="fill" object-fit="cover" />
       </div>
-      <div className="absolute bottom-0 left-[50%] flex -translate-y-[5vh] -translate-x-1/2 gap-5">
+      <div className="absolute bottom-0 left-[50%] flex -translate-y-[2vh] -translate-x-1/2 gap-5">
         {slides.map((slide, slideIndex) => {
           return (
             <div
