@@ -25,7 +25,7 @@ import django_DRF from "../public/assets/skills/django_DRF.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full p-2 h-screen md:my-80 lg:my-36 ">
+    <div id="skills" className="w-full p-2 md:my-72 lg:my-36 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center">
         <p className="text-3xl tracking-widest uppercase text-[#1b74e4] mb-10">
           Skills
