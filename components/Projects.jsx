@@ -20,8 +20,8 @@ const Projects = () => {
             backgroundImg={sms_homePage}
             projectUrl="/allin1school"
             frontTech="React JS | Tailwind css"
-            backTech="Django Rest Frmaework | Postgresql | Pytest | Celery | Redis"
-            otherTech="GIT | Docker | Nginx | Gunicorn | AWS "
+            backTech="Django Rest Frmaework | Postgresql | Celery | Redis"
+            otherTech="GIT | Docker "
           />
           <ProjectItem
             title="Evently"

@@ -118,9 +118,9 @@ const allin1school = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Postgresql
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              {/* <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Pytest
-              </p>
+              </p> */}
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Celery
               </p>
@@ -136,7 +136,7 @@ const allin1school = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Docker
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              {/* <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Nginx
               </p>
               <p className="text-gray-600 py-2 flex items-center">
@@ -144,7 +144,7 @@ const allin1school = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> GIT
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
